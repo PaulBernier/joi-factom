@@ -1,0 +1,25 @@
+{
+  "name": "joi-factom",
+  "version": "1.0.0",
+  "description": "Joi extension for validating Factom data",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PaulBernier/joi-factom.git"
+  },
+  "keywords": [
+    "factom",
+    "joi",
+    "extension",
+    "blockchain"
+  ],
+  "author": "Paul Bernier",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PaulBernier/joi-factom/issues"
+  },
+  "homepage": "https://github.com/PaulBernier/joi-factom#readme"
+}
