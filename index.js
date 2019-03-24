@@ -3,10 +3,10 @@ const { isValidEcAddress,
     isValidPrivateEcAddress,
     isValidPrivateFctAddress,
     isValidPublicEcAddress,
-    isValidPublicFctAddress } = require('factom');
+    isValidPublicFctAddress } = require('factom/src/addresses');
 const { isValidIdentityKey,
     isValidPublicIdentityKey,
-    isValidSecretIdentityKey } = require('factom-identity-lib').digital;
+    isValidSecretIdentityKey } = require('factom-identity-lib/src/app/key-helpers');
 
 module.exports = joi => ({
     base: joi.string(),
