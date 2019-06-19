@@ -1,5 +1,5 @@
 const assert = require('chai').assert,
-    Joi = require('joi').extend(require('./index'));
+    Joi = require('@hapi/joi').extend(require('./index'));
 
 describe('Validate identity keys', function() {
     it('Validate both public and secret identity key', async function() {
