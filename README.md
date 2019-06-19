@@ -13,7 +13,7 @@ npm install joi-factom
 Import the extension:
 
 ```javascript
-const Joi = require('joi').extend(require('joi-factom'));
+const Joi = require('@hapi/joi').extend(require('joi-factom'));
 ```
 
 ## Validate Factoid addresses
@@ -21,7 +21,7 @@ const Joi = require('joi').extend(require('joi-factom'));
 Use `Joi.factom().factoidAddress([type])`.
 
 ```javascript
-const Joi = require('joi').extend(require('joi-factom'));
+const Joi = require('@hapi/joi').extend(require('joi-factom'));
 
 // Validate if a string is either a public or private Factoid address
 const fctSchema = Joi.factom().factoidAddress();
@@ -40,7 +40,7 @@ Joi.assert('Fs1wZau1YNto1xCVkELULUHiKaD14LKVTceVdvWEr9PwEDCACCDr', secretFctSche
 Use `Joi.factom().entryCreditAddress([type])`.
 
 ```javascript
-const Joi = require('joi').extend(require('joi-factom'));
+const Joi = require('@hapi/joi').extend(require('joi-factom'));
 
 // Validate if a string is either a public or private Entry Credit address
 const ecSchema = Joi.factom().entryCreditAddress();
@@ -59,7 +59,7 @@ Joi.assert('Es3nSPRJoiJcN6U7oX3PMjYBB8R4QBnp3iud9M8S1UQZhn3i1m8T', secretEcSchem
 Use `Joi.factom().identityKey([type])`.
 
 ```javascript
-const Joi = require('joi').extend(require('joi-factom'));
+const Joi = require('@hapi/joi').extend(require('joi-factom'));
 
 // Validate if a string is either a public or private identity keys
 const idSchema = Joi.factom().identityKey();
@@ -78,7 +78,7 @@ Joi.assert('idsec1B5cDbNNB4s1cQSZt24u3j1QtB5DsjFyBSmXqpUs645fJ3ot9C', secretIdSc
 Use `Joi.factom().serverIdentityKey([{type: string, priority: number}])`.
 
 ```javascript
-const Joi = require('joi').extend(require('joi-factom'));
+const Joi = require('@hapi/joi').extend(require('joi-factom'));
 
 // Validate if a string is either a public or private identity keys of any priority
 const idSchema = Joi.factom().serverIdentityKey();
