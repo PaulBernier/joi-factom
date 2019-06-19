@@ -25,14 +25,14 @@
     },
     "homepage": "https://github.com/PaulBernier/joi-factom#readme",
     "dependencies": {
-        "factom": "^1.0.2",
+        "factom": "^1.2.3",
         "factom-identity-lib": "0.2.0-rc6"
     },
     "devDependencies": {
         "@hapi/joi": "^15.0.3",
         "chai": "^4.2.0",
-        "eslint": "^5.15.3",
-        "mocha": "^6.0.2",
-        "nyc": "^13.3.0"
+        "eslint": "^5.16.0",
+        "mocha": "^6.1.4",
+        "nyc": "^14.1.1"
     }
 }
